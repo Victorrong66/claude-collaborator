@@ -1,0 +1,43 @@
+:root {
+  --bg: #0c0d10;
+  --bg-raised: #15171c;
+  --border: #2a2d36;
+  --text: #d6d9e0;
+  --text-dim: #7a8091;
+  --accent: #43d17a;
+  --accent-dim: #2c8f54;
+  --host: #43d17a;
+  --guest: #5fb3ff;
+  --error: #ff6b6b;
+  --mono: "JetBrains Mono", "Fira Code", ui-monospace, SFMono-Regular, Menlo,
+    Consolas, monospace;
+
+  color-scheme: dark;
+  font: 15px/1.5 var(--mono);
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+  display: flex;
+}
+
+button {
+  font-family: var(--mono);
+  cursor: pointer;
+}
+
+input,
+textarea {
+  font-family: var(--mono);
+}
